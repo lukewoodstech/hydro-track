@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DA6AD27753A1A44F7A6044 /* WeeklyBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80479A4A0AEC4777630452 /* WeeklyBarChart.swift */; };
+		19225FDFC7E7191FC686C674 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88BB1B49E7E6F8358D0DC3A /* HomeView.swift */; };
+		28D4B02A442FABA883AC8E6B /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980939CF169637637189C40 /* ProgressRingView.swift */; };
+		3155834A840C6DEE0B5B1870 /* WaterBottleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13361BB7EF029CEE2C28D7AF /* WaterBottleIcon.swift */; };
+		560BB2DC79C8CEC742FC6BCD /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB360A294601F98E8DCA8A /* HistoryView.swift */; };
+		5EF59AD2839250F53B6EDEC6 /* SummaryStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA702CC96B01B37EEC2979D5 /* SummaryStepView.swift */; };
+		696D505A2267370C971871BD /* CalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DE9F6F6FAA87172A99A2A /* CalendarGridView.swift */; };
+		7C5BCC364B787ACE6BEEA5C1 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9FF383EEF88F4E25CFD53 /* Date+Extensions.swift */; };
+		7D655B8660ED600C2BE76B6F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20080C1C1E68659AC7303206 /* SettingsView.swift */; };
+		80BC264A7377BAA5B4C109CD /* QuickLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DA1E9384A6453CBF5C858 /* QuickLogView.swift */; };
+		8198F86C86876D0C1BBB0356 /* ActivityStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF932EF02605A98F65B74EAB /* ActivityStepView.swift */; };
+		8A9992C545343EDFEE67801B /* WeightStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1216BDE169137556130003 /* WeightStepView.swift */; };
+		8BCE2E1B1DAF5A68362F837E /* HydroTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068C906F92C8BF5CBB6F556 /* HydroTrackApp.swift */; };
+		8F2FFAEF8896FE767C68C26C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F9FE004A306DE0020DF1EF /* OnboardingView.swift */; };
+		940CE31E280A4520481D932C /* BottleSizeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF75A8F29F6A77E0433F883 /* BottleSizeStepView.swift */; };
+		A1E7160231736FE75585A724 /* SexStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9A540C5062D98A6AE585B /* SexStepView.swift */; };
+		ACA3107F1401ED3A0E55514A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079337C524F779F03300012F /* ContentView.swift */; };
+		B349D48FB59E19159C4B6BD2 /* WaterLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F70C21A1C04A1B94BA0197 /* WaterLog.swift */; };
+		D7A461A3C05BF739FAE17D7B /* HydroDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626FF0B22B2671D9D8A00979 /* HydroDataStore.swift */; };
+		E42951C757E4EC00AAAD4012 /* NameStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08496D005E8A78F6203C8324 /* NameStepView.swift */; };
+		EA7DBCDD657587718011BD50 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602408C11F8D362CD78DBD40 /* NotificationService.swift */; };
+		F224A6D57697EEF153A7EC28 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A770FAE9B4CF75D32A9D5F3 /* Color+Theme.swift */; };
+		F3721A5CF285E9CDDD4A0DC7 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABAAEDFA8A54C5EA2D5F9B /* UserProfile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		079337C524F779F03300012F /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08496D005E8A78F6203C8324 /* NameStepView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NameStepView.swift; sourceTree = "<group>"; };
+		13361BB7EF029CEE2C28D7AF /* WaterBottleIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WaterBottleIcon.swift; sourceTree = "<group>"; };
+		20080C1C1E68659AC7303206 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2FF75A8F29F6A77E0433F883 /* BottleSizeStepView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BottleSizeStepView.swift; sourceTree = "<group>"; };
+		3AD9A540C5062D98A6AE585B /* SexStepView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SexStepView.swift; sourceTree = "<group>"; };
+		3B1216BDE169137556130003 /* WeightStepView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeightStepView.swift; sourceTree = "<group>"; };
+		56F9FE004A306DE0020DF1EF /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		573AC1C92F90AF2A005EECA6 /* HydroTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAB360A294601F98E8DCA8A /* HistoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		602408C11F8D362CD78DBD40 /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		626FF0B22B2671D9D8A00979 /* HydroDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HydroDataStore.swift; sourceTree = "<group>"; };
+		634DE9F6F6FAA87172A99A2A /* CalendarGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarGridView.swift; sourceTree = "<group>"; };
+		8CB9FF383EEF88F4E25CFD53 /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		9A770FAE9B4CF75D32A9D5F3 /* Color+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		A980939CF169637637189C40 /* ProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		B88BB1B49E7E6F8358D0DC3A /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB6DA1E9384A6453CBF5C858 /* QuickLogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickLogView.swift; sourceTree = "<group>"; };
+		CA702CC96B01B37EEC2979D5 /* SummaryStepView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SummaryStepView.swift; sourceTree = "<group>"; };
+		CCABAAEDFA8A54C5EA2D5F9B /* UserProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		CF932EF02605A98F65B74EAB /* ActivityStepView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActivityStepView.swift; sourceTree = "<group>"; };
+		D068C906F92C8BF5CBB6F556 /* HydroTrackApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HydroTrackApp.swift; sourceTree = "<group>"; };
+		D4F70C21A1C04A1B94BA0197 /* WaterLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WaterLog.swift; sourceTree = "<group>"; };
+		ED80479A4A0AEC4777630452 /* WeeklyBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeeklyBarChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		573AC1CB2F90AF2A005EECA6 /* HydroTrack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = HydroTrack;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573AC1C62F90AF2A005EECA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09988BC2BCC0922CB8ABED3E /* HydroTrack */ = {
+			isa = PBXGroup;
+			children = (
+				EE372B2EE5D38E4EBF916F07 /* Components */,
+				932FD6DB78184C4F35D0AD42 /* History */,
+				6EF5BE22630363AD3328AADB /* Home */,
+				6341946DA9A5332CC31A9646 /* Onboarding */,
+				7163880D6BB11E33DF98ABF2 /* Services */,
+				EE5522B3DC34981CCDC8D310 /* Settings */,
+				079337C524F779F03300012F /* ContentView.swift */,
+				D068C906F92C8BF5CBB6F556 /* HydroTrackApp.swift */,
+			);
+			path = HydroTrack;
+			sourceTree = "<group>";
+		};
+		46D67D81C78C90BFFD49DB6E /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				626FF0B22B2671D9D8A00979 /* HydroDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		4C090CD1674FA04CCBD651B3 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				CF932EF02605A98F65B74EAB /* ActivityStepView.swift */,
+				2FF75A8F29F6A77E0433F883 /* BottleSizeStepView.swift */,
+				08496D005E8A78F6203C8324 /* NameStepView.swift */,
+				3AD9A540C5062D98A6AE585B /* SexStepView.swift */,
+				CA702CC96B01B37EEC2979D5 /* SummaryStepView.swift */,
+				3B1216BDE169137556130003 /* WeightStepView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		573AC1C02F90AF2A005EECA6 = {
+			isa = PBXGroup;
+			children = (
+				573AC1CB2F90AF2A005EECA6 /* HydroTrack */,
+				573AC1CA2F90AF2A005EECA6 /* Products */,
+				82B6F9507570B29A3937671C /* Shared */,
+				09988BC2BCC0922CB8ABED3E /* HydroTrack */,
+			);
+			sourceTree = "<group>";
+		};
+		573AC1CA2F90AF2A005EECA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573AC1C92F90AF2A005EECA6 /* HydroTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6341946DA9A5332CC31A9646 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				56F9FE004A306DE0020DF1EF /* OnboardingView.swift */,
+				4C090CD1674FA04CCBD651B3 /* Steps */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		698A35D3CD91F578BAFF0370 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A770FAE9B4CF75D32A9D5F3 /* Color+Theme.swift */,
+				8CB9FF383EEF88F4E25CFD53 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EF5BE22630363AD3328AADB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B88BB1B49E7E6F8358D0DC3A /* HomeView.swift */,
+				A980939CF169637637189C40 /* ProgressRingView.swift */,
+				BB6DA1E9384A6453CBF5C858 /* QuickLogView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7163880D6BB11E33DF98ABF2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				602408C11F8D362CD78DBD40 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82B6F9507570B29A3937671C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9FC9163C15AEEE177AE8E347 /* Models */,
+				46D67D81C78C90BFFD49DB6E /* DataStore */,
+				698A35D3CD91F578BAFF0370 /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		932FD6DB78184C4F35D0AD42 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				634DE9F6F6FAA87172A99A2A /* CalendarGridView.swift */,
+				5AAB360A294601F98E8DCA8A /* HistoryView.swift */,
+				ED80479A4A0AEC4777630452 /* WeeklyBarChart.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9FC9163C15AEEE177AE8E347 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCABAAEDFA8A54C5EA2D5F9B /* UserProfile.swift */,
+				D4F70C21A1C04A1B94BA0197 /* WaterLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE372B2EE5D38E4EBF916F07 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				13361BB7EF029CEE2C28D7AF /* WaterBottleIcon.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE5522B3DC34981CCDC8D310 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				20080C1C1E68659AC7303206 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573AC1C82F90AF2A005EECA6 /* HydroTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573AC1D42F90AF2B005EECA6 /* Build configuration list for PBXNativeTarget "HydroTrack" */;
+			buildPhases = (
+				573AC1C52F90AF2A005EECA6 /* Sources */,
+				573AC1C62F90AF2A005EECA6 /* Frameworks */,
+				573AC1C72F90AF2A005EECA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				573AC1CB2F90AF2A005EECA6 /* HydroTrack */,
+			);
+			name = HydroTrack;
+			productName = HydroTrack;
+			productReference = 573AC1C92F90AF2A005EECA6 /* HydroTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573AC1C12F90AF2A005EECA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					573AC1C82F90AF2A005EECA6 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 573AC1C42F90AF2A005EECA6 /* Build configuration list for PBXProject "HydroTrack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573AC1C02F90AF2A005EECA6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 573AC1CA2F90AF2A005EECA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573AC1C82F90AF2A005EECA6 /* HydroTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573AC1C72F90AF2A005EECA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573AC1C52F90AF2A005EECA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3721A5CF285E9CDDD4A0DC7 /* UserProfile.swift in Sources */,
+				B349D48FB59E19159C4B6BD2 /* WaterLog.swift in Sources */,
+				D7A461A3C05BF739FAE17D7B /* HydroDataStore.swift in Sources */,
+				F224A6D57697EEF153A7EC28 /* Color+Theme.swift in Sources */,
+				7C5BCC364B787ACE6BEEA5C1 /* Date+Extensions.swift in Sources */,
+				3155834A840C6DEE0B5B1870 /* WaterBottleIcon.swift in Sources */,
+				696D505A2267370C971871BD /* CalendarGridView.swift in Sources */,
+				560BB2DC79C8CEC742FC6BCD /* HistoryView.swift in Sources */,
+				00DA6AD27753A1A44F7A6044 /* WeeklyBarChart.swift in Sources */,
+				19225FDFC7E7191FC686C674 /* HomeView.swift in Sources */,
+				28D4B02A442FABA883AC8E6B /* ProgressRingView.swift in Sources */,
+				80BC264A7377BAA5B4C109CD /* QuickLogView.swift in Sources */,
+				8F2FFAEF8896FE767C68C26C /* OnboardingView.swift in Sources */,
+				8198F86C86876D0C1BBB0356 /* ActivityStepView.swift in Sources */,
+				940CE31E280A4520481D932C /* BottleSizeStepView.swift in Sources */,
+				E42951C757E4EC00AAAD4012 /* NameStepView.swift in Sources */,
+				A1E7160231736FE75585A724 /* SexStepView.swift in Sources */,
+				5EF59AD2839250F53B6EDEC6 /* SummaryStepView.swift in Sources */,
+				8A9992C545343EDFEE67801B /* WeightStepView.swift in Sources */,
+				EA7DBCDD657587718011BD50 /* NotificationService.swift in Sources */,
+				7D655B8660ED600C2BE76B6F /* SettingsView.swift in Sources */,
+				ACA3107F1401ED3A0E55514A /* ContentView.swift in Sources */,
+				8BCE2E1B1DAF5A68362F837E /* HydroTrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		573AC1D22F90AF2B005EECA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T84HX34Q45;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		573AC1D32F90AF2B005EECA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T84HX34Q45;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573AC1D52F90AF2B005EECA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T84HX34Q45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukewoodstech.HydroTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		573AC1D62F90AF2B005EECA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T84HX34Q45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukewoodstech.HydroTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573AC1C42F90AF2A005EECA6 /* Build configuration list for PBXProject "HydroTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573AC1D22F90AF2B005EECA6 /* Debug */,
+				573AC1D32F90AF2B005EECA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573AC1D42F90AF2B005EECA6 /* Build configuration list for PBXNativeTarget "HydroTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573AC1D52F90AF2B005EECA6 /* Debug */,
+				573AC1D62F90AF2B005EECA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573AC1C12F90AF2A005EECA6 /* Project object */;
+}

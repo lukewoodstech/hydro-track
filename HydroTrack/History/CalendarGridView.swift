@@ -15,7 +15,7 @@ struct CalendarGridView: View {
             daysGrid
         }
         .padding(16)
-        .hydroGlass(cornerRadius: 20)
+        .hydroGlass(cornerRadius: 10)
     }
 
     // MARK: - Subviews
@@ -116,28 +116,37 @@ struct DayCell: View {
     private var bg: Color {
         if isFuture { return .clear }
         switch status {
-        case .complete: return .statusGreen.opacity(0.75)
-        case .partial:  return .statusYellow.opacity(0.75)
-        case .behind:   return .statusRed.opacity(0.6)
-        case .none:     return .white.opacity(0.08)
+        case .complete: return .statusGreen
+        case .partial:  return .statusYellow
+        case .behind:   return .statusRed.opacity(0.85)
+        case .none:     return .white.opacity(0.12)
+        }
+    }
+
+    private var textColor: Color {
+        if isFuture { return .white.opacity(0.2) }
+        switch status {
+        case .complete, .behind: return .white
+        case .partial:           return Color(.label)
+        case .none:              return .white.opacity(0.7)
         }
     }
 
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 8)
+            RoundedRectangle(cornerRadius: 6)
                 .fill(bg)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 8)
+                    RoundedRectangle(cornerRadius: 6)
                         .stroke(
-                            isSelected ? Color.white : (isToday ? Color.white.opacity(0.55) : .clear),
-                            lineWidth: isSelected ? 2 : 1
+                            isSelected ? Color.white : (isToday ? Color.white.opacity(0.7) : .clear),
+                            lineWidth: isSelected ? 2 : 1.5
                         )
                 )
 
             Text("\(day)")
-                .font(.system(size: 13, weight: isToday ? .bold : .regular))
-                .foregroundStyle(isFuture ? Color.white.opacity(0.25) : .white)
+                .font(.system(size: 13, weight: isToday || isSelected ? .bold : .regular))
+                .foregroundStyle(textColor)
         }
         .frame(height: 34)
     }

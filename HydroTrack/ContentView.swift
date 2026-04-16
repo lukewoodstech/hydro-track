@@ -34,7 +34,6 @@ struct ContentView: View {
         }
         .tint(.hydroMid)
         .onAppear {
-            // Reschedule dynamic notifications whenever app becomes active
             if let profile = dataStore.profile {
                 NotificationService.shared.rescheduleNotifications(
                     for: profile,

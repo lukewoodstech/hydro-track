@@ -61,7 +61,7 @@ struct HomeView: View {
                 .foregroundStyle(.white)
 
             Text(progressPercent >= 100
-                 ? "Goal complete — amazing work today! 🎉"
+                 ? "Goal complete — great work today."
                  : "You're \(progressPercent)% to your daily goal")
                 .font(.subheadline)
                 .foregroundStyle(.white.opacity(0.8))
@@ -73,7 +73,7 @@ struct HomeView: View {
         HStack(spacing: 12) {
             StatCard(value: "\(Int(dataStore.todayTotalOz))", unit: "oz",  label: "consumed")
             StatCard(value: "\(Int(remainingOz))",            unit: "oz",  label: "remaining")
-            StatCard(value: "\(dataStore.streak())",          unit: "🔥", label: "day streak")
+            StatCard(value: "\(dataStore.streak())",          unit: "days", label: "streak")
         }
     }
 
@@ -108,7 +108,7 @@ struct HomeView: View {
             .frame(maxWidth: .infinity)
             .padding()
             .background(Color.hydroDeep.opacity(0.85))
-            .clipShape(RoundedRectangle(cornerRadius: 16))
+            .clipShape(RoundedRectangle(cornerRadius: 10))
             .shadow(color: .hydroDeep.opacity(0.4), radius: 8, y: 4)
         }
     }

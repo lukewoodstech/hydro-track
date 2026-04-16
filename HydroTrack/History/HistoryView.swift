@@ -42,9 +42,10 @@ struct HistoryView: View {
     // MARK: - Streak Banner
 
     private var streakBanner: some View {
-        HStack(spacing: 16) {
-            Text("🔥")
-                .font(.system(size: 40))
+        HStack(spacing: 14) {
+            Image(systemName: "flame.fill")
+                .font(.system(size: 28))
+                .foregroundStyle(.statusYellow)
 
             VStack(alignment: .leading, spacing: 2) {
                 Text("\(dataStore.streak())-day streak")
@@ -52,7 +53,7 @@ struct HistoryView: View {
                     .foregroundStyle(.white)
                 Text(dataStore.streak() == 0 ? "Start your streak today!" : "Keep it flowing!")
                     .font(.subheadline)
-                    .foregroundStyle(.white.opacity(0.75))
+                    .foregroundStyle(.white.opacity(0.8))
             }
 
             Spacer()

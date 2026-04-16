@@ -8,10 +8,10 @@ struct SummaryStepView: View {
         VStack(spacing: 0) {
             Spacer()
 
-            Image(systemName: "checkmark.seal.fill")
-                .font(.system(size: 64))
-                .foregroundStyle(.white)
-                .padding(.bottom, 24)
+            Image(systemName: "checkmark.circle.fill")
+                .font(.system(size: 56))
+                .foregroundStyle(.hydroMid)
+                .padding(.bottom, 20)
 
             Text("You're all set, \(profile.name)!")
                 .font(.largeTitle.bold())
@@ -33,7 +33,7 @@ struct SummaryStepView: View {
                 Divider().background(Color.white.opacity(0.2)).padding(.horizontal)
                 SummaryRow(icon: "figure.walk",        label: "Activity Level",   value: profile.activityLevel.rawValue)
             }
-            .hydroGlass(cornerRadius: 20)
+            .hydroGlass(cornerRadius: 10)
             .padding(.horizontal, 24)
 
             Spacer()
@@ -49,7 +49,7 @@ struct SummaryStepView: View {
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(Color.white.opacity(0.25))
-                .clipShape(RoundedRectangle(cornerRadius: 16))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 48)
